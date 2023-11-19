@@ -17,11 +17,11 @@ function singIn(){
                 window.location="logged.html";
             }
             else{
-                document.getElementById("passwordMessage").innerHTML = "Nieprawidłowe hasło!";
+                document.getElementById("passwordMessage").innerHTML = "Incorrect password!";
             }
         }
         else{
-            document.getElementById("usernameMessage").innerHTML = "Nieprawidłowa nazwa użytkownika!";
+            document.getElementById("usernameMessage").innerHTML = "Incorrect username!";
             document.getElementById("passwordMessage").innerHTML = "";
         }
     }
