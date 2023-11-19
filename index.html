@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatibile" content="IE=edge"/>
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style_index.css"/>
+        <script src="main.js"></script>
+        <title>Login</title>
+    </head>
+    <body>
+        <div class="bg" aria-hidden="true">
+            <div class="bg__dot"></div>
+            <div class="bg__dot"></div>
+        </div>
+        <form autocomplete="off">
+            <div class="form__icon" aria-hidden="true"></div>
+            <div class="form__input-cointainer">
+                <input type="text" aria-label="Username" id="username" placeholder="">
+                <label for="username">Username</label>
+            </div>
+            <p id="usernameMessage" class="messages"></p>
+            <div class="form__input-cointainer">
+                <input type="password" aria-label="Password" id="password" placeholder="">
+                <label for="password">Password</label>
+            </div>
+            <p id="passwordMessage" class="messages"></p>
+            <div class="form__spacer" aria-hidden="true"></div>
+            <button type="button" onclick="singIn()">Sing In</button>
+        </form>
+        <p id="usernameMessage"></p>
+    </body>
+</html>
